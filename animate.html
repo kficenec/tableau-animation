@@ -22,29 +22,11 @@
       var width = $( window ).width();
       var size = width + ',' + height;
       
-      var locations = [    
-        {"src": "https://public.tableau.com/profile/karen.ficenec#!/vizhome/KickstarterExploratory/Dashboard1"},
-        {"src": "https://public.tableau.com/profile/karen.ficenec#!/vizhome/KickstarterExploratory/Dashboard2"},
-        {"src": "https://public.tableau.com/profile/karen.ficenec#!/vizhome/KickstarterExploratory/Dashboard3"},
-        {"src": "https://public.tableau.com/profile/karen.ficenec#!/vizhome/KickstarterExploratory/Dashboard4"}
-        /*** EDIT THIS SECTION ***
- 
-        Put the links to your viz here, make sure to include the following url parameters
-        &:embed=yes&:toolbar=no&:format=png&<filter/parameter>=<value>
-        to make sure it auto sizes add this to the url as well &:size="+size+"
-
-        Example:
-      
-        {"src": "https://public.tableausoftware.com/views/Animated-Map/map?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Year=2010"},            
-
-        ** with add'l years **
-
-        {"src": "https://public.tableausoftware.com/views/Animated-Map/map?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Year=2011"},
-        {"src": "https://public.tableausoftware.com/views/Animated-Map/map?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Year=2012"},
-        {"src": "https://public.tableausoftware.com/views/Animated-Map/map?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Year=2013"},
-
-        */
-        
+      var locations = [
+        {"src":"https://public.tableau.com/views/KickstarterExploratory/Dashboard1?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&:size="+size+""},
+        {"src":"https://public.tableau.com/views/KickstarterExploratory/Dashboard2?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&:size="+size+""},
+        {"src":"https://public.tableau.com/views/KickstarterExploratory/Dashboard3?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&:size="+size+""},
+        {"src":"https://public.tableau.com/views/KickstarterExploratory/Dashboard4?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&:size="+size+""}, 
                 ]
             
       $("#myGallery").attr('width',width);
@@ -75,7 +57,7 @@
   <style>
     
     body {
-      background-color: #353535;
+      background-color: clear;
     }
     #myGallery{
       position:relative;
