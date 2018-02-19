@@ -63,7 +63,7 @@
       position:absolute;
       top:0;
       left:0;
-      //height:400;
+      height:400;
     }
     #myGallery img.active{
       display:block;
